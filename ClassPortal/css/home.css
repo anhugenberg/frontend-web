@@ -27,6 +27,7 @@ h5{
     margin: auto;
     padding: 1rem;
     max-width: 80rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div a {
@@ -58,6 +59,22 @@ div a:hover {
     width: 15rem;
     height: 7rem;
     margin-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.eachblock2 {
+    text-decoration: none;
+    text-align: center;
+    border: 0.1rem solid black;
+    width: 15rem;
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 15rem;
+    height: 3rem;
+    margin-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .pageBlocks a:hover{
