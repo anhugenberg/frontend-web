@@ -4,11 +4,16 @@ body{
 }
 
 header{
-    background-color:rgb(191, 238, 140);
+    background-image: url(../titlebackground.png);
+    /*background-color:rgb(191, 238, 140);*/
     padding: 4rem;
 }
 nav{
-    background-color:rgb(140,221,238);
+    background-color: rgb(69,246,181,.5);
+}
+
+nav a:link, a:active, a:visited{
+    color:black;
 }
 
 h1{
@@ -39,6 +44,11 @@ div a:hover {
     text-decoration: underline;
 }
 
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .pageblocks{
     display: flex;
     flex-flow: row wrap;
@@ -51,8 +61,8 @@ div a:hover {
 .eachblock {
     text-decoration: none;
     text-align: center;
-    border: 0.1rem solid black;
-    width: 15rem;
+    border: 0.1rem solid rgb(247,247,58,.3);
+    background-color: rgb(247,247,58,.5);
     font-size: 2rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -65,7 +75,7 @@ div a:hover {
 .eachblock2 {
     text-decoration: none;
     text-align: center;
-    border: 0.1rem solid black;
+    border: 0.4rem solid rgb(69,246,181,.5);
     width: 15rem;
     font-size: 2rem;
     padding-top: 4rem;
@@ -77,19 +87,43 @@ div a:hover {
 
 }
 
-.pageBlocks a:hover{
+.pageBlocks a:link, a:hover{
     text-decoration: underline;
 }
 
 .view{
     margin-top: 4rem;
-    background: yellowgreen;
+    background: rgb(178,246,69,.5);
+}
+
+.view a:link{
+    color:black;
 }
 
 .process{
-    background: steelblue;
+    background: rgb(69,246,181,.5);
+}
+
+.process a:link{
+    color:black;
 }
 
 #smallheader{
     padding: .1rem;
+}
+
+#project{
+    background-image: url(../projectbackground.png);
+}
+
+#project a:link{
+    color: black;
+}
+
+#assignment{
+    background-image: url(../assignmentbackground.png);
+}
+
+#assignment a:link{
+    color:black;
 }
