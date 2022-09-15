@@ -12,6 +12,19 @@ main{
     border-radius: 0.5rem;
 }
 
+img{
+    display: none;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 0;
+}
+
 fieldset{
     margin: 1rem 1rem 1rem 2rem;
     font-family: cursive;
