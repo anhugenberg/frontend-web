@@ -1,0 +1,39 @@
+header{
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: cursive;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    background: lightyellow;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+
+fieldset{
+    margin: 1rem 1rem 1rem 2rem;
+    font-family: cursive;
+
+}
+
+div{
+    margin: 1rem 1rem 1rem 2rem;
+    font-family: cursive;
+}
+
+button{
+    margin: 1rem 1rem 1rem 2rem;
+    background-color: white;
+    color: black;
+    border: 0.15rem solid black;
+    border-radius: 0.2rem;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: 0.15rem solid white;
+    border-radius: 0.2rem;
+}

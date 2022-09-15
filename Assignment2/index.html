@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minion Form</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      Which minion are you?
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="number-imput" >Pick a number from 1-4</label>
+          <input type="number" id="number-imput" name="favNumber" min="1" max="4" step="1">
+        </div>
+        <fieldset id="checkboxes">
+          <legend>Select all the qualities that you currently posess.</legend>
+
+          <input type="checkbox" id="kind" name="checkbox-group">
+          <label for="kind" >Kind</label>
+
+          <input type="checkbox" id="mischief" name="checkbox-group">
+          <label for="mischief" >Mischief</label>
+
+          <input type="checkbox" id="adventurous" name="checkbox-group">
+          <label for="adventurous" >Adventurous</label>
+
+          <input type="checkbox" id="creative" name="checkbox-group">
+          <label for="creative" >Creative</label>
+
+          <input type="checkbox" id="loving" name="checkbox-group">
+          <label for="loving" >Loving</label>
+
+          <input type="checkbox" id="athletic" name="checkbox-group">
+          <label for="athletic" >Athletic</label>
+
+          <input type="checkbox" id="bright" name="checkbox-group">
+          <label for="bright" >Bright</label>
+
+          <input type="checkbox" id="happy" name="checkbox-group">
+          <label for="happy" >Happy</label>
+        </fieldset>
+
+        <div>
+          <label for="color-input">What is your favorite color?</label>
+          <input type="color" id="color-input" >
+        </div>
+
+        <fieldset>
+          <legend>Which do you prefer? Apples or bananas?</legend>
+
+          <input type="radio" id="apples" name="animal">
+          <label for="apples">Apples</label>
+
+          <input type="radio" id="bananas" name="animal">
+          <label for="bananas">Bananas</label>
+
+        </fieldset>
+
+        <button type="button" id="submit-button">Submit</button>
+
+        <img id="minion" src="" alt="Minion">
+      </form>
+    </main>
+  </body>
+</html>
