@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+p{
+    padding: 5.5rem;
+}
