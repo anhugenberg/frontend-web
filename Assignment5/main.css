@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+}
+
+footer{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.first {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    text-align: center;
+  }
+  
+  .first .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .first .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .second {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    text-align: center
+  }
+  .second .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Fjalla One', serif;
+  }
+  .second .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .third {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    text-align: center
+  }
+  .third .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .third .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .fourth {
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .fourth .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    font-family: 'Abril Fatface', serif;
+  }
+  
+  .fourth .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: white;
+    transform-origin: 0 50%;
+  }
+  
+  .fourth .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .fourth .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .fifth {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .fifth .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Quicksand', serif;
+  }
+  
+  .fifth .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+
+  .sixth {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+
+  .sixth .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    font-family: 'Courgette', serif;
+  }
+  
+  .sixth .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .seventh {
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .seventh .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  .seventh .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .seventh .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .eighth {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
+  .eighth .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    font-family: 'Indie Flower', serif;
+  }
+  
+  .eighth .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  #secondline, #fourthline, #sixthline, #eighthline{
+    color: white;
+    background-color: black;
+  }
